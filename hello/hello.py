@@ -26,9 +26,18 @@ def welcome_user(fname, lname):
 
 welcome_user(first, last)
 
-# input numbers
+# input numbers 
+# imputs are always read as string
 num1 = input("Enter a number ")
 num2 = input("Enter another number ")
 
 sum = int(num1) + int(num2)
 print(sum)
+
+# variable in string
+age = 1244
+user_info = "I am user" + age + "!"
+
+print(user_info)
+
+
